@@ -4,6 +4,6 @@ Cookiecutter template with Claude skill for generating Kubernetes deployment rep
 
 ## Usage
 
-Ask Claude in natural language to bootstrap a deployment. See [.skills/SKILL.md](.skills/SKILL.md) for details.
+Ask Claude in natural language to bootstrap a deployment. See [.skills](.skills/) for details.
 
 Template configuration can be found in [cookiecutter.json](cookiecutter.json)
