@@ -27,5 +27,5 @@ output/
 Thumbs.db
 
 # Generated projects (when testing template locally)
-*-deployment/
+/*-deployment/
 !{{ cookiecutter.project_name }}/
