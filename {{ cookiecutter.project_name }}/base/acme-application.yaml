@@ -1,0 +1,9 @@
+---
+apiVersion: kro.run/v1alpha1
+kind: AcmeApplication
+spec:
+  name: {{ cookiecutter.project_name | app_name_from_project }}
+  image: {{ cookiecutter.image_registry }}/{{ cookiecutter.image_name }}
+  ingress:
+    enabled: true
+    hostnames: []

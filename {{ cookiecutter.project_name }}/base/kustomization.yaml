@@ -1,0 +1,12 @@
+---
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+resources:
+  - acme-application.yaml
+
+images:
+  - name: {{ cookiecutter.image_registry }}/{{ cookiecutter.image_name }}
+
+configurations:
+  - image_transformer_config.yaml

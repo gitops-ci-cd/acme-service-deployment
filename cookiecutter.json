@@ -1,0 +1,10 @@
+{
+  "project_name": "my-app-deployment",
+  "image_registry": "ghcr.io/my-org",
+  "image_name": "my-app",
+
+  "cookiecutter": {
+    "extensions": ["filters"]
+  },
+  "_extensions": ["filters.CustomExtension"]
+}
