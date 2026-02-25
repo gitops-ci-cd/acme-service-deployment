@@ -44,6 +44,10 @@ Do not continue until the user explicitly confirms.
 
 ### Step 3: Create Repository from Template
 
+<!--
+TODO: We can't currently create a repository from a template using the MCP server, so this is a placeholder for the actual API call that would be made. The implementation may require using the GitHub REST API directly or a custom MCP action.
+-->
+
 Use the GitHub MCP server to create a repository from the template:
 
 ```
