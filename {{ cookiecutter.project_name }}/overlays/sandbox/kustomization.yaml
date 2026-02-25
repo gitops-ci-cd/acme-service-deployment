@@ -8,7 +8,7 @@ resources:
 # patches:
 #   - target:
 #       kind: AcmeApplication
-#       name: {{ cookiecutter.app_name }}
+#       name: {{ cookiecutter.project_name | app_name_from_project }}
 #     patch: |-
 #       - op: add
 #         path: /spec/ingress/hostnames/-
